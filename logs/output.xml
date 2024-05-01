@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-04-29T08:24:30.086692" rpa="false" schemaversion="5">
+<suite id="s1" name="Signup" source="D:\Projects\Robot\walkdog-robot\signup.robot">
+<test id="s1-t1" name="Deve poder cadastrar um novo dog walker" line="7">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-04-29T08:24:30.859765" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\Projects\\Robot\\walkdog-robot\\logs\\browser\\traces\\1620fb11-02e4-4b8c-baef-7aca66e2d471"}</msg>
+<msg time="2024-04-29T08:24:31.061318" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\Projects\\Robot\\walkdog-robot\\logs\\browser\\traces\\1620fb11-02e4-4b8c-baef-7aca66e2d471"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-04-29T08:24:30.858767" elapsed="0.202551"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-04-29T08:24:34.461993" level="INFO">Successfully initialized new page object and opened url: https://walkdog.vercel.app/signup</msg>
+<msg time="2024-04-29T08:24:34.462971" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://walkdog.vercel.app/signup</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-04-29T08:24:31.062319" elapsed="3.400652"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2024-04-29T08:24:34.500969" level="INFO">Waited for Element with selector form h1 at state visible</msg>
+<arg>form h1</arg>
+<arg>visible</arg>
+<arg>5000</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2024-04-29T08:24:34.462971" elapsed="0.037998"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2024-04-29T08:24:34.541965" level="INFO">Text: 'Faça seu cadastro'</msg>
+<arg>form h1</arg>
+<arg>equal</arg>
+<arg>Faça seu cadastro</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2024-04-29T08:24:34.501977" elapsed="0.039988"/>
+</kw>
+<status status="PASS" start="2024-04-29T08:24:30.856215" elapsed="3.686754"/>
+</test>
+<doc>Suite de testes de cadastro de dog walker</doc>
+<status status="PASS" start="2024-04-29T08:24:30.087656" elapsed="4.546311"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Signup">Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

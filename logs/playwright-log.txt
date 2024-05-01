@@ -1,0 +1,51 @@
+{"level":30,"time":"2024-04-29T11:24:30.682Z","pid":19692,"hostname":"Laptop","msg":"Listening on 57960"}
+(node:19692) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-04-29T11:24:30.854Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:30.855Z","pid":19692,"hostname":"Laptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:30.857Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:30.857Z","pid":19692,"hostname":"Laptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:31.059Z","pid":19692,"hostname":"Laptop","msg":"Adding browser to stack: chromium, version: 123.0.6312.4"}
+{"level":30,"time":"2024-04-29T11:24:30.861Z","pid":19692,"hostname":"Laptop","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-04-29T11:24:31.060Z","pid":19692,"hostname":"Laptop","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-04-29T11:24:31.066Z","pid":19692,"hostname":"Laptop","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-04-29T11:24:31.059Z","pid":19692,"hostname":"Laptop","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-04-29T11:24:31.067Z","pid":19692,"hostname":"Laptop","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-04-29T11:24:31.086Z","pid":19692,"hostname":"Laptop","msg":"Changed active context"}
+{"level":30,"time":"2024-04-29T11:24:31.327Z","pid":19692,"hostname":"Laptop","msg":"Video path: undefined"}
+{"level":30,"time":"2024-04-29T11:24:31.328Z","pid":19692,"hostname":"Laptop","msg":"Changed active page"}
+{"level":30,"time":"2024-04-29T11:24:34.461Z","pid":19692,"hostname":"Laptop","msg":"End of node method newPage"}
+{"level":30,"time":"2024-04-29T11:24:34.466Z","pid":19692,"hostname":"Laptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-04-29T11:24:34.466Z","pid":19692,"hostname":"Laptop","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2024-04-29T11:24:34.499Z","pid":19692,"hostname":"Laptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-04-29T11:24:34.505Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getText"}
+{"level":30,"time":"2024-04-29T11:24:34.506Z","pid":19692,"hostname":"Laptop","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2024-04-29T11:24:34.540Z","pid":19692,"hostname":"Laptop","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
+{"level":30,"time":"2024-04-29T11:24:34.541Z","pid":19692,"hostname":"Laptop","msg":"End of node method getText"}
+{"level":30,"time":"2024-04-29T11:24:34.546Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.549Z","pid":19692,"hostname":"Laptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.552Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.554Z","pid":19692,"hostname":"Laptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.557Z","pid":19692,"hostname":"Laptop","msg":"Changed active context"}
+{"level":30,"time":"2024-04-29T11:24:34.557Z","pid":19692,"hostname":"Laptop","msg":"Changing current active page: page=ce181924-a2f1-490e-8807-4b58b66602aa"}
+{"level":30,"time":"2024-04-29T11:24:34.557Z","pid":19692,"hostname":"Laptop","msg":"Changed active page"}
+{"level":30,"time":"2024-04-29T11:24:34.560Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.562Z","pid":19692,"hostname":"Laptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.564Z","pid":19692,"hostname":"Laptop","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-29T11:24:34.565Z","pid":19692,"hostname":"Laptop","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-29T11:24:34.568Z","pid":19692,"hostname":"Laptop","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-29T11:24:34.568Z","pid":19692,"hostname":"Laptop","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-29T11:24:34.571Z","pid":19692,"hostname":"Laptop","msg":"Changing current active page: page=ce181924-a2f1-490e-8807-4b58b66602aa"}
+{"level":30,"time":"2024-04-29T11:24:34.571Z","pid":19692,"hostname":"Laptop","msg":"Changed active page"}
+{"level":30,"time":"2024-04-29T11:24:34.574Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.576Z","pid":19692,"hostname":"Laptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.578Z","pid":19692,"hostname":"Laptop","msg":"Changed active context"}
+{"level":30,"time":"2024-04-29T11:24:34.578Z","pid":19692,"hostname":"Laptop","msg":"Changing current active page: page=ce181924-a2f1-490e-8807-4b58b66602aa"}
+{"level":30,"time":"2024-04-29T11:24:34.578Z","pid":19692,"hostname":"Laptop","msg":"Changed active page"}
+{"level":30,"time":"2024-04-29T11:24:34.581Z","pid":19692,"hostname":"Laptop","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-04-29T11:24:34.596Z","pid":19692,"hostname":"Laptop","msg":"Removed page=bc0ec791-6e20-4a25-9b6d-84ecf3625a2e from context=e4ceafd7-9cb0-45c8-bae0-fec003a57aae page stack"}
+{"level":30,"time":"2024-04-29T11:24:34.622Z","pid":19692,"hostname":"Laptop","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-04-29T11:24:34.642Z","pid":19692,"hostname":"Laptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.642Z","pid":19692,"hostname":"Laptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-29T11:24:34.692Z","pid":19692,"hostname":"Laptop","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-04-29T11:24:34.861Z","pid":19692,"hostname":"Laptop","msg":"End of node method closeAllBrowsers"}
